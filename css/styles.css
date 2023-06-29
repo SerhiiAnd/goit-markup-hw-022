@@ -90,10 +90,6 @@ body {
   background: var(--iris);
 }
 
-.boss-btn:hover,
-.boss-btn:focus {
-  color: var(--blu-cur);
-}
 .boss-btn-accent {
   color: var(--white);
   font-size: 16px;
@@ -103,6 +99,11 @@ body {
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
+}
+
+.boss-btn-accent:hover,
+.boss-btn-accent:focus {
+  color: var(--blu-cur);
 }
 /* - ------- Advantages --------*/
 .advantages {
