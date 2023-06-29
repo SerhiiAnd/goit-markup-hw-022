@@ -203,12 +203,13 @@ body {
 }
 .btn-title {
   background: var(--cornflower);
+  font-family: "Roboto", sans-serif;
 }
 .btn-accent {
   color: var(--iris);
   text-align: center;
   font-size: 16px;
-  font-family: "Roboto", sans-serif;
+
   font-style: normal;
   font-weight: 500;
   line-height: 1.5;
