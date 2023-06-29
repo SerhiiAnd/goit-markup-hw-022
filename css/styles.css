@@ -44,7 +44,7 @@ body {
 .head-menu-item {
 }
 .head-menu-link {
-  color: var(--navyblue);
+  color: #2e2f42;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -59,7 +59,7 @@ body {
 
 .head-menu-link:hover,
 .head-menu-link:focus {
-  color: var(--blu-cur);
+  color: #404bbf;
 }
 
 .head-address-item {
