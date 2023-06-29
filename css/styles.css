@@ -204,14 +204,14 @@ body {
 .btn-title {
   background: var(--cornflower);
   font-family: "Roboto", sans-serif;
+  font-weight: 500;
 }
 .btn-accent {
   color: var(--iris);
   text-align: center;
   font-size: 16px;
-
   font-style: normal;
-  font-weight: 500;
+
   line-height: 1.5;
   letter-spacing: 0.04em;
 }
