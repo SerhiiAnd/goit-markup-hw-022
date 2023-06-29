@@ -5,6 +5,7 @@
   --slate: #434455;
   --cloud: #f4f4fd;
   --cornflower: #e7e9fc;
+  --blu-cur: #404bbf;
 }
 body {
   font-family: "Roboto", sans-serif;
@@ -57,7 +58,7 @@ body {
 
 .head-menu-link:hover,
 .head-menu-link:focus {
-  color: #404bbf;
+  color: var(--blu-cur);
 }
 
 .head-address-item {
