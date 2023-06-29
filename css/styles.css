@@ -90,8 +90,8 @@ body {
   background: var(--iris);
 }
 
-.boss-btn-accent:hover,
-.boss-btn-accent:focus {
+.boss-btn:hover,
+.boss-btn:focus {
   color: var(--blu-cur);
 }
 .boss-btn-accent {
