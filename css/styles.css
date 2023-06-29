@@ -34,7 +34,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-.head-logo-dark span {
+.head-logo-dark {
   color: var(--navyblue);
   font-family: "Raleway", sans-serif;
 }
@@ -184,7 +184,7 @@ body {
 }
 .footer-logo {
 }
-.footer-logo-whit span {
+.footer-logo-whit {
   color: var(--cloud);
   font-family: "Raleway", sans-serif;
 }
