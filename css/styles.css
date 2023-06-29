@@ -214,6 +214,11 @@ body {
   line-height: 1.5;
   letter-spacing: 0.04em;
 }
+
+.btn-accent:hover,
+.btn-accent:focus {
+  color: #ffffff;
+}
 /*---------------- PRTF ---------------*/
 .prtf-list {
 }
