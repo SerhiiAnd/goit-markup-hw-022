@@ -101,9 +101,9 @@ body {
 .boss-btn-accent {
 }
 
-.boss-btn-accent:hover,
-.boss-btn-accent:focus {
-  color: var(--blu-cur);
+.boss-btn:hover,
+.boss-btn:focus {
+  background-color: #404bbf;
 }
 /* - ------- Advantages --------*/
 .advantages {
