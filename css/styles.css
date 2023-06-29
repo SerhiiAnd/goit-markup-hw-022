@@ -25,7 +25,7 @@ body {
 .head-nav {
 }
 .head-logo {
-  color: var(--iris, #4d5ae5);
+  color: var(--iris);
   font-size: 18px;
   font-family: "Raleway", sans-serif;
   font-style: normal;
@@ -35,7 +35,7 @@ body {
   text-transform: uppercase;
 }
 .head-logo-dark span {
-  color: var(--navyblue, #2e2f42);
+  color: var(--navyblue);
   font-family: "Raleway", sans-serif;
 }
 .head-menu {
@@ -44,7 +44,7 @@ body {
 .head-menu-item {
 }
 .head-menu-link {
-  color: var(--navyblue, #2e2f42);
+  color: var(--navyblue);
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -92,7 +92,7 @@ body {
 
 .boss-btn-accent:hover,
 .boss-btn-accent:focus {
-  color: #404bbf;
+  color: var(--blu-cur);
 }
 .boss-btn-accent {
   color: var(--white, #fff);
