@@ -205,15 +205,14 @@ body {
   background: var(--cornflower);
   font-family: "Roboto", sans-serif;
   font-weight: 500;
+  text-align: center;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
 }
 .btn-accent {
   color: var(--iris);
-  text-align: center;
-  font-size: 16px;
-  font-style: normal;
-
-  line-height: 1.5;
-  letter-spacing: 0.04em;
+  background-color: #f4f4fd;
 }
 
 .btn-accent:hover,
