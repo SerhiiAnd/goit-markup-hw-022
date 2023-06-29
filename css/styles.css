@@ -89,17 +89,16 @@ body {
 .boss-btn {
   background: var(--iris);
   font-family: "Roboto", sans-serif;
-}
-
-.boss-btn-accent {
   color: var(--white);
   font-size: 16px;
-
   font-style: normal;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
+}
+
+.boss-btn-accent {
 }
 
 .boss-btn-accent:hover,
