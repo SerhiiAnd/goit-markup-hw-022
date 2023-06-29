@@ -20,8 +20,6 @@ body {
 }
 /*-----HEADER---*/
 .head {
-  border-bottom: 1px solid var(--cornflower, #e7e9fc);
-  background: var(--white, #fff);
 }
 .head-nav {
 }
