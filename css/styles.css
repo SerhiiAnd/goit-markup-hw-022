@@ -1,0 +1,236 @@
+:root {
+  --navyblue: #2e2f42;
+  --iris: #4d5ae5;
+  --white: #fff;
+  --slate: #434455;
+  --cloud: #f4f4fd;
+  --cornflower: #e7e9fc;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #ffffff;
+}
+
+.link {
+  text-decoration: none;
+}
+.list {
+  list-style-type: none;
+}
+/*-----HEADER---*/
+.head {
+  border-bottom: 1px solid var(--cornflower, #e7e9fc);
+  background: var(--white, #fff);
+}
+.head-nav {
+}
+.head-logo {
+  color: var(--iris, #4d5ae5);
+  font-size: 18px;
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.head-logo-dark span {
+  color: var(--navyblue, #2e2f42);
+  font-family: "Raleway", sans-serif;
+}
+.head-menu {
+}
+
+.head-menu-item {
+}
+.head-menu-link {
+  color: var(--navyblue, #2e2f42);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.head-addres {
+}
+.head-address-list {
+}
+
+.head-menu-link:hover,
+.head-menu-link:focus {
+  color: #404bbf;
+}
+
+.head-address-item {
+}
+.head-address-link {
+  color: var(--slate, #434455);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+/*------------ BOSS ------------*/
+.boss {
+  background: var(--navyblue, #2e2f42);
+}
+.boss-title {
+  color: var(--white, #fff);
+  text-align: center;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+}
+.boss-btn {
+  background: var(--iris, #4d5ae5);
+}
+
+.boss-btn-accent:hover,
+.boss-btn-accent:focus {
+  color: #404bbf;
+}
+.boss-btn-accent {
+  color: var(--white, #fff);
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.64px;
+  cursor: pointer;
+}
+/* - ------- Advantages --------*/
+.advantages {
+}
+.advantages-list {
+}
+.advantages-item {
+}
+.advantages-subtitle {
+  color: var(--navyblue, #2e2f42);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.advantages-item-text {
+  color: var(--slate, #434455);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+/* --------------- WORK ------------*/
+.work {
+}
+.work-title {
+  color: var(--navyblue, #2e2f42);
+  text-align: center;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+}
+.work-list {
+}
+
+/* ---------------- TEAM ----------------*/
+.team {
+  background: var(--cloud, #f4f4fd);
+}
+.team-title {
+  color: var(--navyblue, #2e2f42);
+  text-align: center;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+.team-list {
+}
+.team-item {
+  background: var(--white, #fff);
+}
+.team-subtitle {
+  color: var(--navyblue, #2e2f42);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.team-item-text {
+  color: var(--slate, #434455);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+/*---------------- FOOTER --------------*/
+.footer {
+  background: var(--navyblue, #2e2f42);
+}
+.footer-logo {
+}
+.footer-logo-whit span {
+  color: var(--cloud, #f4f4fd);
+  font-family: "Raleway", sans-serif;
+}
+.footer-text {
+  color: var(--cloud, #f4f4fd);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+/*---------------- BTN --------------*/
+
+.btn {
+}
+.btn-title {
+  background: var(--cornflower, #e7e9fc);
+}
+.btn-accent {
+  color: var(--iris, #4d5ae5);
+  text-align: center;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.64px;
+}
+/*---------------- PRTF ---------------*/
+.prtf-list {
+}
+.prtf-item {
+}
+.prtf-subtitel {
+  color: var(--navyblue, #2e2f42);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.prtf-item-text {
+  color: var(--slate, #434455);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
