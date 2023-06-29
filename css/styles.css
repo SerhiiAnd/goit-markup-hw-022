@@ -72,6 +72,10 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+.head-address-link:hover,
+.head-address-link:focus {
+  color: #404bbf;
+}
 
 /*------------ BOSS ------------*/
 .boss {
